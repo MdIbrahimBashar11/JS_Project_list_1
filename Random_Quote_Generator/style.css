@@ -1,0 +1,31 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  #quote {
+    font-size: 2em;
+    margin: 50px 0;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  

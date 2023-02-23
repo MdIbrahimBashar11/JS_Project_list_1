@@ -1,0 +1,49 @@
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .timer-label {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .timer-value {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+  
+  .start-button, .stop-button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-button {
+    background-color: green;
+    color: white;
+  }
+  
+  .stop-button {
+    background-color: red;
+    color: white;
+  }
+  
